@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Syed Raza</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<style>
+			.typewriter {
+				display: inline-block;
+				overflow: hidden;
+				border-right: .15em solid black; /* Cursor */
+				white-space: nowrap;
+				margin: 0 auto;
+				letter-spacing: .15em;
+				animation: caret 1s steps(1) infinite;
+			}
+			@keyframes caret {
+				50% {
+					border-color: transparent;
+				}
+			}
+			/* Custom Styles */
+			.content img {
+				max-width: 100%;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+			}
+			.section-content {
+				margin-bottom: 2rem; /* Add space between sections */
+			}
+			.gallery {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			.gallery a {
+				margin: 10px;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Intro -->
+			<section class="intro">
+				<header>
+					<h1>Syed Raza</h1>
+					<h2 class="typewriter" id="typewriter-text">I'm a Cloud Engineer</h2>
+					<!-- Calling the Index.js/ lambda function -->
+					<h3 class="counter-number"></h3>
+					<ul class="actions">
+						<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+					</ul>
+				</header>
+				<div class="content">
+					<span class="image fill" data-position="center"><img src="images/brownguy.webp" alt="" /></span>
+				</div>
+			</section>
+
+			<!-- Section -->
+			<section id="first">
+				<header>
+					<h2>About</h2>
+				</header>
+				<div class="content">
+					<p>I am an AWS-certified Cloud Engineer with a strong background in deploying and managing AWS cloud infrastructure. Previously, while working as an IT engineer at Amazon, I developed a passion for cloud technologies and gained foundational knowledge. I further expanded my expertise by studying and working with services like EC2, S3, Lambda, and VPC. My journey from Network Engineering to Cloud Computing has been driven by a commitment to building scalable and efficient solutions. Throughout my career, I have continually honed my skills in cloud automation, network security, and programming, striving to deliver robust and reliable cloud-based systems.</p>
+					<span class="image main"><img src="images/computerGuy.webp" alt="" /></span>
+				</div>
+			</section>
+
+			<!-- New Section: Showcasing My AWS Skills -->
+			<section>
+				<header>
+					<h2>Showcasing My AWS Skills</h2>
+				</header>
+				<div class="content">
+					<p>To put the skills I learned while studying AWS into practice, I decided to create a project that showcases my work. <strong>I developed this website you're currently viewing!</strong> This project allowed me to get hands-on experience with various AWS services and combine both front-end and back-end development. Here's a quick rundown of what I did and what I learned.</p>
+
+
+					<h3>What I Built</h3>
+						<p>I developed an online resume and hosted it on AWS, leveraging a range of AWS services to create a secure, scalable, and cost-effective project. The main components of the project included:</p>
+						<ul>
+							<li><strong>Static Website Hosting</strong>: Hosted the site as a static site on Amazon S3, simplifying the setup and reducing costs.</li>
+							<li><strong>HTTPS Security</strong>: Implemented HTTPS using Amazon CloudFront, ensuring secure and reliable content delivery.</li>
+							<li><strong>Visitor Counter</strong>: Implemented a visitor counter feature using JavaScript. Each visit triggers a Lambda function that updates a DynamoDB table, which keeps track of the total number of visits. The counter updates in real-time, displaying the current number of views. <em>Try <a href="javascript:location.reload();" style="color: blue; text-decoration: none; cursor: pointer;">refreshing the page</a> yourself to see the view counter go up!</em></li>
+
+
+						</ul>
+
+						<h3>Key Features</h3>
+						<ul>
+							<li><strong>Custom Domain</strong>: Configured a custom domain with Amazon Route 53, providing a professional and easy-to-remember URL.</li>
+							<li><strong>Backend Services</strong>: For storing visitor data, I used Amazon DynamoDB. An API built with AWS API Gateway and AWS Lambda handles data interactions, ensuring scalability and efficiency.</li>
+							<li><strong>Infrastructure as Code</strong>: Employed AWS SAM (Serverless Application Model) to define and deploy the infrastructure, making it efficient to manage and update.</li>
+						</ul>
+
+						<h3>Tools and Tech</h3>
+							<p><strong>Infrastructure:</strong> AWS SAM (Serverless Application Model), CloudFront, S3, Route 53</p>
+							<p><strong>Backend:</strong> Python (AWS Lambda), API Gateway, DynamoDB</p>
+							<p><strong>CI/CD:</strong> GitHub Actions for smooth deployment whenever I update the code</p>
+							<p><strong>Frontend:</strong> HTML, CSS, JavaScript</p>
+
+
+
+					<h3>What I Learned</h3>
+					<p>
+						<strong>AWS Services</strong>: Got a real taste of using AWS services, especially serverless stuff, and learned some best practices along the way.<br>
+						<strong>Web Development</strong>: Improved my skills in building and styling web pages, making them responsive and user-friendly.<br>
+						<strong>Infrastructure as Code</strong>: Learned the importance of automating cloud infrastructure setups to save time and avoid manual errors.<br>
+						<strong>Continuous Deployment</strong>: Set up CI/CD pipelines to make updates a breeze, with everything deploying automatically when I push new changes.
+					</p>
+					<p>Overall, this project was a fun and practical way to apply what I’ve been learning about AWS. I'm excited to keep exploring and building more cool stuff with cloud technologies!</p>
+
+					<h2>Download My Resume</h2>
+					<p>You can download my resume by clicking the link below:</p>
+					<a href="https://<your-bucket-name>.s3.amazonaws.com/<path-to-resume>.pdf" download="YourName_Resume.pdf" style="color: blue; text-decoration: none;">Download Resume</a>
+				</div>
+			</section>
+
+			<!-- Section -->
+			<section>
+				<header>
+					<h2>My Skills</h2>
+				</header>
+				<div class="content">
+					<p><strong>Experienced AWS Cloud Engineer with expertise in scalable architecture, programming, and networking solutions</strong></p>
+					<ul class="feature-icons">
+						<li class="icon solid fa-laptop">AWS Deployment</li>
+						<li class="icon solid fa-bolt">Cloud Automation</li>
+						<li class="icon solid fa-signal">Scalable Architectures</li>
+						<li class="icon solid fa-code">Programming Expertise</li>
+						<li class="icon solid fa-map-marker-alt">Network security</li>
+						<li class="icon solid fa-cog">Infrastructure Management</li>
+					</ul>
+					<p>Proficient in leveraging AWS services to design and implement robust and scalable cloud solutions. Experienced in programming languages such as Python and Java, with a solid understanding of network security and infrastructure management.</p>
+				</div>
+			</section>
+
+			<!-- Section -->
+			<section>
+				<header>
+					<h2>Achievements</h2>
+				</header>
+				<div class="content">
+					<!-- Section -->
+					<section>
+						<header>
+							<h3>Awards and Certifications</h3>
+							<ul class="certification-list">
+								<li>AWS Solutions Architect</li>
+								<li>AWS Cloud Practitioner</li>
+								<li>Cisco CCNA</li>
+								<li>Complete Networking Fundamentals Course on Udemy</li>
+								<li>Python Network Programming for Network Engineers on Udemy</li>
+								<li>Linux Mastery: Master the Linux Command Line on Udemy</li>
+							</ul>
+						</header>
+						<div class="content">
+							<div class="gallery">
+								<a href="images/SolutionsArchitect.png" class="landscape"><img src="images/udemy.png" alt="" /></a>
+								<a href="images/gallery/fulls/02.jpg"><img src="images/SolutionsArchitect.png" alt="" /></a>
+								<a href="images/gallery/fulls/03.jpg"><img src="images/cloudpractitionerbadge.png" alt="" /></a>
+								<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/ccnabadge.png" alt="" /></a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+
+			
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					&copy; Syed Raza. Design: <a href="https://html5up.net">HTML5 UP</a>.
+				</div>
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			const texts = ["I'm a Cloud Engineer", "I'm a Cloud Architect", "I'm a DevOps Engineer", "I'm a Solutions Architect"];
+			let currentIndex = 0;
+
+			function changeText() {
+				currentIndex = (currentIndex + 1) % texts.length;
+				document.getElementById("typewriter-text").textContent = texts[currentIndex];
+			}
+
+			setInterval(changeText, 2000); // Change every 3 seconds
+		</script>
+
+		<script src="./index.js"></script>
+	</body>
+</html>
