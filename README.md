@@ -1,6 +1,6 @@
 ## Showcasing My AWS Skills
 
-To put the skills I learned while studying AWS into practice, I decided to create a project that showcases my work. **I  developed syedscerts.com!** This project allowed me to get hands-on experience with various AWS services and combine both front-end and back-end development. Here's a quick rundown of what I did and what I learned.
+To put the skills I learned while studying AWS into practice, I decided to create a project that showcases my work. **I  developed [syedscerts.com](https://https://syedscerts.com/)!** This project allowed me to get hands-on experience with various AWS services and combine both front-end and back-end development. Here's a quick rundown of what I did and what I learned.
 
 ### What I Built
 ![cloudArchitectureblue](https://github.com/user-attachments/assets/d8bacbf5-e4a8-4345-bfe0-3651e53c69d7)
@@ -37,4 +37,4 @@ Overall, this project was a fun and practical way to apply what I’ve been lear
 
 You can download my resume by clicking the link below:
 
-[Download Resume](https://<your-bucket-name>.s3.amazonaws.com/<path-to-resume>.pdf)
+[Download Resume](https://syed-cloud-resume.s3.us-west-2.amazonaws.com/SyedRaza.pdf)
